@@ -1,0 +1,21 @@
+html {
+    background-color: azure;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+header {
+    font-family: 'Bitter', serif;  
+}
+body {
+    background-color: aquamarine;
+}
+.topnav {
+    word-spacing: 50px;
+    overflow: hidden;
+}
+
+.Galerija img {
+    opacity: 0.8;
+    cursor: pointer;
+  }

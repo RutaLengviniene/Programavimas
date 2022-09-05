@@ -1,0 +1,7 @@
+.jpg-foto {
+    width: 300px;
+    background-color: aquamarine;
+}
+img {
+    object-fit: fill;
+}

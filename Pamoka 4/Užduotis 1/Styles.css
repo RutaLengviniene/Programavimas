@@ -1,0 +1,34 @@
+html {
+    background-color: purple;
+}
+h1 {
+    color: yellow;
+}
+.center {
+    background-color: rgba(0, 0, 0, alfa);
+    align-items: center;
+    text-shadow: 2px 2px 5px red;
+    margin: 0 auto;
+    width: 50%;
+    border: 3px pink;
+    border-style: dotted;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+      }
+ img {
+    border-radius: 40px;
+    border: 20px solid;
+    border-color: aliceblue blue red green;
+    margin-top: 50px;
+ }
+ .Paragraf {
+    
+    text-align: justify;
+ }
+ .sub-heding {
+    color: blue;
+ }
+ p::first-letter {
+    font-size: 200%;
+}

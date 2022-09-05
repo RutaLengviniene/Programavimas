@@ -1,0 +1,26 @@
+fieldset {
+    max-width: 200px;
+    margin-left: 100px;
+}
+div {
+    max-width: 350px;
+    border: 1px solid lightgrey;
+    padding: auto;
+    margin: auto;
+}
+input:focus {
+    outline: 3px solid yellow;
+}
+#card:valid {
+    border: 2px solid green;
+}
+button:hover {
+    background-color: rgb(126, 123, 123);
+}
+input:required {
+    border: 2px solid red;
+}
+input:valid {
+    border: 2px solid green;
+}
+

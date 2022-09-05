@@ -1,0 +1,16 @@
+body {
+    background-color: aqua;
+}
+h1 {
+    color: rgb(55, 156, 72);
+}
+p {
+    color: blueviolet;
+}
+p.grean {
+    color: rgb(230, 29, 163);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p.black {
+    background-color: aquamarine;
+}

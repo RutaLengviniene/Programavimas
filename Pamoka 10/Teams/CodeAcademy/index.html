@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+         <h1>Registre to Fancy Form</h1>
+         <p>All fields are <span> requered</span> unless marked as "optional</p>
+         <label for="unique_ID">Your unique ID that you can't change</label>
+         <br>
+         <input type="text" id="unique_ID" value="YBX0123" readonly>
+         <br>
+         <br>
+         <label for="email">Email:</label>    
+         <br>
+         <input type="email" id="email" required>
+         <br>
+         <br>
+         <label for="password">Password:</label>
+         <br>
+         <input type="password" id="password" required>
+         <br>
+         <br>
+         <label for="age">Age:</label>
+         <br>
+         <input type="number" id="age" min="18" max="65" required>
+         <br>
+         <br>
+         <label for="about_you">Tell us a little aout yourself <small>(optional)</small>:</label>
+         <br>
+         <input type="text" id="about_you">
+         <br>
+         <input type="checkbox" id="checkbox" value="I aggre with the Terms & Conditions">
+         <label for="checkbox">I aggre with the Terms & Conditions</label>
+         <br>
+         <button>Register</button>
+         <br>
+         <br>
+    </div>
+</body>
+</html>

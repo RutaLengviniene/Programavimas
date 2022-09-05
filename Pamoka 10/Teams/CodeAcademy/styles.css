@@ -1,0 +1,48 @@
+div {
+    background-color: rgb(40, 103, 107);
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    color: aliceblue;
+    font-size: large;
+}
+span {
+    background-color: rgb(245, 105, 226);
+}
+label {
+    margin-top: 50px;
+}
+input:read-only {
+    background-color: grey;
+    border: 3px solid rgb(39, 38, 38);
+}
+button {
+    background-color: green;
+    border: 3px solid grey;
+    color: aliceblue;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+#checkbox {
+    margin: 15px;
+}
+input {
+    border: 3px solid red;
+    border-left: 3px solid pink;
+}
+input:not(#about_you):valid {
+    border: 3px solid greenyellow;
+}
+input:in-range {
+    border: 3px solid whitesmoke;
+}
+input:out-of-range{
+    border: 3px solid red;
+}
+button:hover {
+    background-color: darkgreen;
+}
+input:checked + label {
+    color: blue;
+}

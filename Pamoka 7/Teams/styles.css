@@ -1,0 +1,27 @@
+td, th {
+    border: 2px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+th {
+    width: 250px;
+}
+td {
+    width: 150px;
+}
+table {
+    border-collapse: collapse;
+    font-family: 'Lato', sans-serif;
+}
+.Oran {
+    background-color: orange;
+}
+.blue {
+    background-color: blue;
+}
+.green {
+    background-color: green;
+}
+.white-text {
+    color: white;
+}

@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+H1 ::after {
+   content: "xxx";
+   color: blueviolet;
+}
+button {
+    width: 150px;
+    height: 75px;
+    background-color: aqua;
+}
+button:hover {
+    background-color: blue;
+}
+
+nav {
+    margin-top: 100px;
+    background-color: blue;
+}
+nav a {
+    color: goldenrod;
+    margin: 5px;
+    text-decoration: none;
+}
+a:not(:first-child)::before{
+    content: "// ";
+    color: black;
+    margin: 10px;
+}
